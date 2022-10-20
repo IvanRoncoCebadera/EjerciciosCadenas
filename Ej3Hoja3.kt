@@ -7,7 +7,7 @@ fun main(){
  * @param mensaje texto descriptivo del proceso a elaborar
  * @retrun el texto escrito
  */
-fun generarMensaje(mensaje: String): String{
+private fun generarMensaje(mensaje: String): String{
     println(mensaje)
     var texto = readln()
     return texto
@@ -18,7 +18,7 @@ fun generarMensaje(mensaje: String): String{
  * @param mensaje el texto del que se quiere contar el numero de vocales
  * @return el numero de vocels que tiene el parametro
  */
-fun decirNumeroVocales(mensaje: String): String{
+private fun decirNumeroVocales(mensaje: String): String{
     var vocalesBuilder = StringBuilder()
     var contador = 0
     for(caracter: Char in mensaje){
