@@ -14,7 +14,7 @@ private fun generarMensaje(mensaje: String): String{
 }
 
 /**
- * funcion para encontrar la palabra mas larga, imprimitla y decir el numero de caracteres
+ * funcion para encontrar la palabra mas larga, imprimirla y decir el numero de caracteres
  * @param mensaje el texto que introducimos
  * @return un mensaje imprimiendo la palabra más larga y su número de caracteres
  */
