@@ -89,5 +89,5 @@ fun encontrarPalabra(mensaje: CharArray, palabra: CharArray): String{
             contadorPosMen = contadorPosMen + 1
         }
     }while(contadorPosMen < mensaje.size)
-    return "La palabra ${palabra.joinToString("")} se repite $contadorPal veces."
+    return """La palabra "${palabra.joinToString("")}" se repite $contadorPal veces."""
 }
